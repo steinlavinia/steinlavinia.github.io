@@ -1,40 +1,45 @@
-* {    
-    margin: 10px;
-    border-radius: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-};
-
-body {
-    background-color: rgb(243, 203, 243);
-};
-
 header {
     background-color: purple;
     text-align: center;
     font-size: 100%;
     color: white;
-    bottom: auto;
-};
-
-h5 {
-    color: rgb(224, 167, 224);
-};
+}
 
 h2 { 
     text-align: center;
-    font-size: 17px;
-    color: rgb(190, 90, 190);
-};
+    font-size: 97%;
+    color: rgb(153, 39, 153);
+}
+
+p {
+    color: black;
+}
+
+* {    
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 h3 {
     background-color: purple;
     color: rgb(224, 167, 224);
     text-align: center;
-};
+}
 
-p {
-    color: black;
-};
+img {
+    width: 55%;
+    height: 55%;
+    border-radius: 12%;
+    border: 5px solid purple;
+    padding: 10px;
+    position: relative;
+    left: 21%;
+}
+
+body {
+    background-color: rgb(243, 203, 243);
+}
 
 a {
     display: block;
@@ -48,21 +53,12 @@ a {
     border-radius: 20px;
     width: max-content;
     margin: auto;
-};
+
+}
 
 a:hover {
-    font-size: 16px;
-};
-
-img {
-    width: 55%;
-    height: 55%;
-    border-radius: 14%;
-    border: 5px solid purple;
-    padding: 10px;
-    position: relative;
-    left: 21%;
-};
+    font-size: 15px;;
+}
 
 .rodape {
     text-align: center;
@@ -76,4 +72,8 @@ img {
     text-decoration: none;
     color: purple;
     margin-top: 5%;
-};
+}
+
+h5 {
+    color: rgb(243, 203, 243);
+}
