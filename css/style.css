@@ -34,7 +34,7 @@ img {
     border: 5px solid purple;
     padding: 10px;
     position: relative;
-    left: 480px;
+    left: 350px;
 }
 
 body {
@@ -71,8 +71,4 @@ a {
 
 h5 {
     color: rgb(224, 167, 224);
-}
-
-.titulo {
-    text-align: left;
 }
