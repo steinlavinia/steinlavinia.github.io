@@ -28,13 +28,13 @@ h3 {
 }
 
 img {
-    width: 800px;
-    height: 550px;
-    border-radius: 25px;
+    width: 55%;
+    height: 55%;
+    border-radius: 12%;
     border: 5px solid purple;
     padding: 10px;
     position: relative;
-    left: 350px;
+    left: 21%;
 }
 
 body {
