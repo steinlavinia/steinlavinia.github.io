@@ -8,10 +8,10 @@
 }
 
 .imagem {
-    width: 50%;
-    height: 50%;
-    position: relative;
-    align-items: center;
+    width: 45%;
+    height: 45%;
+    margin: auto;
+    display: block;
 }
 
 h3 {
@@ -30,10 +30,15 @@ p {
 }
 
 img {
-    width: 650px;
-    height: 400px;
-    flex-basis: auto;
-    padding: 10px;
-    border-radius: 5px;
-    border: 20px solid #2d4732;
+    width: 750px;
+    height: 500px;
+    border-radius: 10px;
+    border: 15px solid #2d4732;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
 }
