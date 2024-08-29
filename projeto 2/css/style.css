@@ -36,6 +36,17 @@ img {
     border: 15px solid #2d4732;
 }
 
+.menu {
+    display: inline;
+    list-style: none;
+    position: relative;
+}
+
+.menu li .botao {
+    color: #2d4732;
+    padding: 0%;
+}
+
 .flexbox {
     display: flex;
     flex-wrap: wrap;
