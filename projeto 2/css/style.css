@@ -29,6 +29,11 @@ h4 {
 p {
     font-size: 100%;
     color: #2d4732;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
 }
 
 img {
@@ -43,6 +48,52 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 30px;
+}
+
+.tableBan {
+    width: 15%;
+    border-collapse: collapse;
+    font-size: 15px;
+    display: table;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    margin: auto;
+}
+
+.tableBolo {
+    width: 30%;
+    border-collapse: collapse;
+    font-size: 15px;
+    display: table;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    margin: auto;
+}
+
+.tableRoc {
+    width: 20%;
+    border-collapse: collapse;
+    font-size: 15px;
+    display: table;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    margin: auto;
+}
+
+.tableTorta {
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 15px;
+    display: table;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    margin: auto;
+}
+
+td {
+    color: #2d4732;
+    padding: 8px 15px;
+    border: 3px solid #366e3f;
 }
 
 .voltar {
