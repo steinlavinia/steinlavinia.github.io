@@ -22,7 +22,7 @@ h3 {
 }
 
 h4 {
-    font-size: 120%;
+    font-size: 90%;
     color: #2d4732;
 }
 
@@ -53,7 +53,7 @@ img {
     width: 650px;
     height: 400px;
     border-radius: 5px;
-    border: 10px solid  #366e3f;
+    border: 9px solid  #366e3f;
 }
 
 .flexbox {
@@ -109,6 +109,9 @@ td {
     border: 3px solid #366e3f;
 }
 
+.footer {
+    background-color: #366e3f;
+}
 .voltar {
     position: relative;
     background-color: #5a9163;
