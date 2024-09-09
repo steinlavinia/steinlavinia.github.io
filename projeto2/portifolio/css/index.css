@@ -1,0 +1,19 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(113, 112, 112);
+    display: block;
+}
+
+.nome {
+    font-weight: 400;
+    font-size: 160%;
+    color: black;
+    width: 15%;
+}
