@@ -1,0 +1,25 @@
+footer{
+    color: rgb(132, 0, 90);
+    padding: 2px;
+    text-align: center;
+}
+
+h4{
+    font-size: 100%;
+}
+
+li{
+    display: list-item;
+    margin: 2px;
+    list-style: none;
+    color:black;
+}
+
+a{
+    color: rgb(132, 0, 90);
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: 0px 0px 5px rgb(255, 93, 204);
+}

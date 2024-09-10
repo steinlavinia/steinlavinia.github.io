@@ -1,0 +1,22 @@
+.projetos {
+    padding: 80px 4%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+span{
+    color: rgb(132, 0, 90);
+}
+
+.flexbox {
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}

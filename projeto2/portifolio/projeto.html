@@ -6,38 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Sobre - Portifólio</title>
 </head>
 <body>
     <header>
-        <nav>
+        <div class="menu"> 
+            <div class="logo">
+                <a href="#">
+                    <img src="" alt="Logo Portifólio - Lavínia Stein">
+                </a>
+            </div>
+        <nav class="links">
             <ul>
-                <li>
-                    <a href="">Lavínia Stein</a>
-                    <a href="index.html">Home</a>
-                    <a href="sobre.html">Sobre</a>
-                    <a href="projeto.html">Projeto</a>
-                    <a href="contato.html">Contato</a>
-                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>   
+                <li><a href="projeto.html">Projeto</a></li>
             </ul>
         </nav>
+        <div class="contato">
+            <a href="contato.html">
+                <button>Contato</button>
+            </a>
+        </div>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Meus Projetos</h2>
-            <div class="projetos">
-                    <div class="imgProjeto">
-                        <img src="img/imgProjeto1.png" alt="Imagem Projeto 1">
-                        <a href="/projeto2/" class="ancProjeto">Link Projeto 1</a>
+        <section class="projeto">
+            <div class="menu">
+                <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+                <div class="flexbox">
+                    <div class="imgProj">
+                        <img src="img/imgprojeto1.png" alt="Imagem Projeto 1">
+                        <a href="">Projeto 1</a>
                     </div>
-                    <div class="imgProjeto">
+                    <div class="imgProj">
                         <img src="img/imgProjeto2.png" alt="Imagem Projeto 2">
-                        <a href="/projeto2/siteCooking/index.html" class="ancProjeto">Link Projeto 2</a>
+                        <a href="/projeto2/siteCooking/index.html">Projeto 2</a>
                     </div>
+                </div>
             </div>
         </section>
-        <footer class="footer">
+        <footer>
             <nav>
                 <ul>
                     <li>Instagram - <a href="https://www.instagram.com/steiin.lavinia/?next=%2F">steiin.lavinia</a></li>
@@ -45,6 +56,7 @@
                 </ul>
             </nav>
         </footer>
+        <a href="index.html" class="Voltar">Voltar</a>
     </main>
 </body>
 </html>
