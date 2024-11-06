@@ -36,4 +36,3 @@ lista.appendChild(ancora);
 
 ancora.setAttribute('href', 'https://steinlavinia.github.io/projeto2/siteCooking/index.html')
 ancora.setAttribute('target', '_blanck')
-
