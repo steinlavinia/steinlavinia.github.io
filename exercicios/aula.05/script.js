@@ -1,13 +1,13 @@
-const miniaturas = document.querySelectorAll('.miniatura');
-const imgAmpliada = document.querySelector('#imgAmpliada')
+const imgAmpliada = document.querySelector("#imgAmpliada");
+const miniaturas = document.querySelectorAll(".miniatura");
 
-miniaturas.forEach(miniatura => {
-    miniatura.addEventListener('click', () => {
+miniaturas.forEach((miniatura) => {
+    miniatura.addEventListener("click", () => {
         miniaturas.forEach(miniatura => {
-            miniatura.style.opacity = '0.4';
+            miniatura.style.opacity = "0.4";
         })
         imgAmpliada.scr = miniatura.scr;
-        imgAmpliada.style.display = 'block';
-        miniatura.style.opacity = '1';
-    })
+        imgAmpliada.style.display = "block";
+        miniatura.style.opacity = "1";
+    });
 });

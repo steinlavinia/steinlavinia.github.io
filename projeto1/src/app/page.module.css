@@ -1,0 +1,10 @@
+.imagem {
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.paragrafo {
+    text-align: center;
+    color: goldenrod;
+}
