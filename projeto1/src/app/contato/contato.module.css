@@ -1,11 +1,11 @@
-.sobre{
-    color:  #77009C;
+.contato{
+    color: #77009C;
     text-align: center;
     font-size: 180%;
     font-weight: 500;
 }
 @media(max-width:700px){
-  .sobre{
+  .contato{
     font-size: 140%;
   }
 }

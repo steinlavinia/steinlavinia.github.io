@@ -1,22 +1,22 @@
-//import localFont from "next/font/local";
-import "./globals.css";
-import Header from "@/components/header";
+import Header from "@/componentes/header/Header";
+import "../style/globals.css";
 
 export const metadata = {
-  title: "Aluna Lavínia Stein",
-  description: "Portifólio - Lavínia Stein",
-  charset: 'UTF-8',
-  author: 'Lavínia Stein',
-  keywords: 'HTML, CSS, JavaScript, React, Next.js'
+	title: "Front-end",
+	description: "Front-End II",
+	charset: "UTF-8",
+	author: "Lavínia Stein",
+	keywords: "HTML, CSS, JavaScript, React, Next.js",
 };
 
-export default function RootLayout({children}) {
-  return (
-    <html lang="pt-br">
-      <body>
-        <Header />
-        {children}
-      </body>
-    </html>
-  );
+export default function RootLayout({ children }) {
+	return (
+		<html lang="pt-BR">
+			<head />
+			<body>
+				<Header />
+				<main>{children}</main>
+			</body>
+		</html>
+	);
 }
